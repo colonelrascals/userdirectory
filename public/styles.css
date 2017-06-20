@@ -1,0 +1,30 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+a{
+  flex-basis: 100%
+}
+.userz{
+  display: flex;
+  flex-wrap: wrap;
+}
+.userwrapper{
+  flex-basis: 25%;
+  flex-grow: 1;
+  border: thin solid black;
+  display: flex;
+  flex-wrap: wrap;
+}
+.usercirclepic{
+  border: thin solid black;
+    border-radius: 50%;
+    flex-basis: 25%
+}
+img{
+  width: 100%
+}
+.singleuser{
+  padding: 0px 15%;
+}

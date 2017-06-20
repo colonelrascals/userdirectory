@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <title></title>
+  </head>
+  <body>
+    <div class = "userz">
+      {{#users}}
+      <div class = "userwrapper">
+      <img src={{avatar}} alt="">
+    <a href = '/{{name}}'>{{name}}</a>
+    <h2>{{#job}}{{job}}, {{/job}}{{#company}}{{company}}{{/company}}</h2>
+    <h2>{{^job}}available for hire{{/job}}</h2>
+    </div>
+    {{/users}}
+  </div>
+    <script type="text/javascript" href = "../user.js">
+    </script>
+  </body>
+</html>
